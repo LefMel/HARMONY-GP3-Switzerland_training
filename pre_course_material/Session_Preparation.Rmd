@@ -95,7 +95,6 @@ We have created a public repository containing the teaching material for the tra
 You should see a number of folders listed with names "Pre_Course_Material", "Day_1", "Day_2". Within these folders are files like like "Session_Preparation.Rmd", "Session_Preparation.pdf" etc.  Each of the sessions for the training school (including this preparation document) has a series of files:  the .Rmd is the original Rmarkdown document, and the .pdf and .html files are created from these.  You can click on any of these files to view them, although of the different file formats the .pdf version is probably easiest to download directly from the website.  There are two problems with this:
 
 1 - You will likely encounter problems when copy/pasting R code from the PDF files.
-
 2 - If/when any of the files are updated, you will not get an automatic update of the new version.
 
 We therefore recommend that you follow the instructions below to clone the repository directly to your computer.
@@ -415,7 +414,6 @@ cat('True posterior 95% CI:', ci[1], '-', ci[2], '\n')
 Again, these are close, but not the same.  There are two reasons for this:
 
 1 - We did not remove the burnin period
-
 2 - We do not have a sufficiently high effective sample size
 
 Let's look at how to fix these problems.

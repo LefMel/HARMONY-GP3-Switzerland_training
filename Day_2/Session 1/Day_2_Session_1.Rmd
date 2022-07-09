@@ -1,0 +1,75 @@
+---
+title: "STARD-BLCM Guidelines"
+author:
+- Sonja Hartnack
+- Valerie Hungerbühler
+- Eleftherios Meletis
+date: '2022-07-15'
+output:
+  beamer_presentation: default
+  slidy_presentation: default
+  ioslides_presentation: default
+params:
+  presentation: yes
+subtitle: CA18208 HARMONY Zurich Training School - https://harmony-net.eu/
+---
+
+```{r rendering, eval=FALSE, include=FALSE}
+# To render this as PDF (beamer) slides run:
+rmarkdown::render('Day_2_Session_1.Rmd', 'beamer_presentation', params=list(presentation=TRUE))
+```
+
+```{r setup, include=FALSE}
+set.seed(2022-07-15)
+
+# Reduce the width of R code output for PDF only:
+if(params$presentation){
+  knitr::knit_hooks$set(size = function(before, options, envir) {
+    if(before){
+      knitr::asis_output(paste0("\\", options$size))
+    }else{
+      knitr::asis_output("\\normalsize")
+    }
+  })
+  knitr::opts_chunk$set(size = "scriptsize")
+}
+
+# Collapse successive chunks:
+space_collapse <- function(x){ gsub("```\n*```r*\n*", "", x) }
+# Reduce space between chunks:
+space_reduce <- function(x){ gsub("```\n+```\n", "", x) }
+knitr::knit_hooks$set(document = space_collapse)
+
+
+# To collect temporary filenames:
+cleanup <- character(0)
+```
+
+
+## STARD-BLCM guidelines
+
+Update of STARD2015 statement/checklist for diagnpstic test evaluation studies that use Bayesian Latent Class models (BLCMs).
+
+Checklist of STARD items for studies that use BLCMs to estimate diagnostic test accuracy in the absence of a reference standard. 
+
+
+#### Objective: Facilitate improved quality of reporting on the design, conduct and results of diagnostic accuracy studies that use BLCMs.
+
+  * Examples and elaborations for each of the modified items are discussed in Kostoulas et al (2017). 
+  
+Checklist available as Word document in Session's folder.
+
+--- 
+
+## Group Work
+
+- Please have a look at the paper from Kostoulas et al. (2017) 'STARD-BLCM: Standards for the Reporting of Diagnostic accuracy studies that use Bayesian Latent Class Models'
+
+- Split in groups of five and read one of the available three papers (Bronsvoort (2019), Bodenham  (2021) or Lahuerta (2018)) and discuss if they comply with the STARD-BLCM guidelines. 
+    * The papers are located in: Day 2 - Session 1 - STARD-BLCM papers. 
+
+- Prepare a brief summary-presentation (.ppt file), summarising the paper and assessing compliance with STARD-BLCM guidelines.
+
+--- 
+
+## Open Checklist

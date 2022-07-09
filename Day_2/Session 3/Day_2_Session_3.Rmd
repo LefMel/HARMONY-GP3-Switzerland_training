@@ -1,0 +1,95 @@
+---
+title: "BLCMs with Covariates"
+author:
+- Sonja Hartnack
+- Valerie Hungerbühler
+- Eleftherios Meletis
+date: '2022-07-14'
+output:
+  beamer_presentation: default
+  slidy_presentation: default
+  ioslides_presentation: default
+params:
+  presentation: yes
+subtitle: CA18208 HARMONY Zurich Training School - https://harmony-net.eu/
+---
+
+```{r rendering, eval=FALSE, include=FALSE}
+# To render this as PDF (beamer) slides run:
+rmarkdown::render('Day_2_Session_3.Rmd', 'beamer_presentation', params=list(presentation=TRUE))
+```
+
+```{r setup, include=FALSE}
+library("tidyverse")
+library("runjags")
+library("rjags")
+runjags.options(silent.jags=TRUE, silent.runjags=TRUE)
+set.seed(2022-07-14)
+
+# Reduce the width of R code output for PDF only:
+if(params$presentation){
+  knitr::knit_hooks$set(size = function(before, options, envir) {
+    if(before){
+      knitr::asis_output(paste0("\\", options$size))
+    }else{
+      knitr::asis_output("\\normalsize")
+    }
+  })
+  knitr::opts_chunk$set(size = "scriptsize")
+}
+
+# Collapse successive chunks:
+space_collapse <- function(x){ gsub("```\n*```r*\n*", "", x) }
+# Reduce space between chunks:
+space_reduce <- function(x){ gsub("```\n+```\n", "", x) }
+knitr::knit_hooks$set(document = space_collapse)
+
+
+# To collect temporary filenames:
+cleanup <- character(0)
+```
+
+
+## Covariates: Latent variable logistic regression (Lewis 2012)
+- A binomial regression model with a logit link function between the latent true prevalence and covariates associated with disease occurrence can be definded as follows, for covariate pattern $i$
+$Pr(Y_i= y_i|n_i)=\binom{n_i}{k_i}q_i^{y_i}(1-q_i)^{n_i-y_i}$
+where $q_i=Se\pi_i+(1-Sp)(1-\pi_i)$ and $log(\frac{\pi_i}{1-\pi_i})=x_i^T\beta$
+- When $Se=1$ and $Sp=1$ then the model
+reverts to the classical logistic regression model
+
+## Ex 8 Covariates 
+- Explore the data set 'echinococcus.xlsx'
+    PCR for either E. multilocularis or E. granulosus, ELISA for both, eggs found by arecoline purgation, Taenia co-infection, age and sex 
+- Run classical 'risk factor analysis': is sex, Taenia co-infection or age a risk factor for echinococcus (PCR-prevalence, seroprevalence or purges)? Obtain p-values and ORs with confidence intervals. 
+
+
+## Ex 9 Covariates 
+- Prepare the data set in the correct format (dump, add ones) for BLCM
+- Run a model for three tests (assume a very high sensitivity for arecoline purgation)
+- Try different priors
+- Evidence of conditional dependencies?
+- obtain DICs
+  'runjags.version.deviance.R'
+- Run models with covariates included 
+    - 'runjags_version_cestode_update.R','model.cestode.bug', 'model_without_cestode.bug'
+- Is there evidence for a covariate effect on the prevalence?
+- Compare your findings with Ex.8
+
+## Ex 8 Covariates 
+- Explore the data set 'echinococcus.xlsx'
+    PCR for either E. multilocularis or E. granulosus, ELISA for both, eggs found by arecoline purgation, Taenia co-infection, age and sex 
+- Run classical 'risk factor analysis': is sex, Taenia co-infection or age a risk factor for echinococcus (PCR-prevalence, seroprevalence or purges)? Obtain p-values and ORs with confidence intervals. 
+
+
+## Ex 9 Covariates 
+- Prepare the data set in the correct format (dump, add ones) for BLCM
+- Run a model for three tests (assume a very high sensitivity for arecoline purgation)
+- Try different priors
+- Evidence of conditional dependencies?
+- obtain dics
+- Run models with covariates included 
+    - 'runjags_version_cestode_update.R','model.cestode.bug', 'model_without_cestode.bug'
+- Is there evidence for a covariate effect on the prevalence?
+- Compare your findings with Ex.8
+
+

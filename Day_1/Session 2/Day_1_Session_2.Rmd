@@ -88,7 +88,7 @@ In the Hui-Walter paradigm a condition that *connects* $S$ the number of populat
 
 If this condition is fulfilled, any combination of $S$ and $R$ may allow to estimate $Se$ and $Sp$, e.g. (2T, 2P), (3T,1P), (4T,1P), ...
 		
-  * This condition is describes **Model Identifiability** and is a necessary but not sufficient condition - as we'll see later.
+  * This condition describes **Model Identifiability** and is a necessary but not sufficient condition - as we'll see later.
 
 ---
 

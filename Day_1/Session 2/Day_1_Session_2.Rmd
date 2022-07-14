@@ -6,8 +6,8 @@ author:
 - Eleftherios Meletis
 date: '2022-07-14'
 output:
-  beamer_presentation: default
   slidy_presentation: default
+  beamer_presentation: default
   ioslides_presentation: default
 params:
   presentation: yes

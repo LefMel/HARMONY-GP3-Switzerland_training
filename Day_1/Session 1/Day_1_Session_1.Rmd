@@ -6,8 +6,8 @@ author:
 - Eleftherios Meletis
 date: '2022-07-14'
 output:
-  slidy_presentation: default
   beamer_presentation: default
+  slidy_presentation: default
   ioslides_presentation: default
 subtitle: CA18208 HARMONY Zurich Training School - https://harmony-net.eu/
 ---
@@ -23,6 +23,12 @@ set.seed(09-07-2022)
 
 
 ![](figs/cost_association.jpeg){width=300px}
+
+---
+
+## Welcome and Introductions
+
+![](figs/klicker.pdf)
 
 ---
 

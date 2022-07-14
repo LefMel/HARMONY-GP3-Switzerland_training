@@ -1,0 +1,280 @@
+﻿S.No;Reasonfortesting;Test1;Test2;Test3
+1;Community surveillance;0;0;0
+2;Community surveillance;0;0;0
+3;Suspect;0;0;1
+4;Suspect;0;1;0
+5;Suspect;0;0;0
+6;Suspect;0;0;0
+7;Suspect;0;0;0
+8;Contact of a case;0;0;0
+9;Community surveillance;0;0;0
+10;Community surveillance;0;0;0
+11;Community surveillance;0;0;0
+12;Community surveillance;0;0;0
+13;Community surveillance;0;0;0
+14;Community surveillance;0;0;0
+15;Suspect;0;0;0
+16;Community surveillance;0;0;0
+17;Community surveillance;0;0;0
+18;Community surveillance;0;0;0
+19;Community surveillance;0;0;0
+20;Community surveillance;0;0;0
+21;Community surveillance;0;0;0
+22;Suspect;0;0;0
+23;Suspect;0;0;0
+24;Suspect;1;1;1
+25;Suspect;0;0;0
+26;Suspect;0;0;0
+27;Suspect;0;1;0
+28;Contact of a case;1;0;1
+29;Suspect;1;0;1
+30;Suspect;0;0;0
+31;Suspect;0;0;0
+32;Contact of a case;0;0;0
+33;Contact of a case;0;0;0
+34;Suspect;1;1;1
+35;Suspect;1;1;1
+36;Suspect;1;1;1
+37;Suspect;0;0;0
+38;Suspect;1;1;1
+39;Suspect;0;0;0
+40;Suspect;0;0;0
+41;Suspect;0;0;0
+42;Suspect;0;0;0
+43;Suspect;0;0;0
+44;Suspect;1;1;1
+45;Suspect;1;0;0
+46;Suspect;1;1;0
+47;Suspect;0;0;0
+48;Suspect;0;0;0
+49;Suspect;1;1;1
+50;Suspect;0;0;0
+51;Suspect;0;0;0
+52;Contact of a case;0;0;0
+53;Contact of a case;1;1;1
+54;Contact of a case;0;1;1
+55;Contact of a case;0;0;0
+56;Contact of a case;1;1;1
+57;Contact of a case;0;0;0
+58;Suspect;1;1;1
+59;Suspect;0;0;0
+60;Suspect;1;1;1
+61;Suspect;0;0;0
+62;Suspect;1;1;1
+63;Contact of a case;0;0;0
+64;Suspect;1;0;1
+65;Suspect;0;0;1
+66;Suspect;0;0;1
+67;Suspect;1;1;1
+68;Suspect;0;0;0
+69;Suspect;0;0;1
+70;Suspect;0;0;1
+71;Suspect;1;1;1
+72;Suspect;1;0;1
+73;Community surveillance;1;1;1
+74;Contact of a case;0;0;1
+75;Suspect;1;1;1
+76;Contact of a case;0;1;1
+77;Contact of a case;0;1;1
+78;Contact of a case;0;0;0
+79;Contact of a case;0;0;0
+80;Suspect;0;1;1
+81;Suspect;0;0;0
+82;Suspect;0;0;0
+83;Contact of a case;0;1;0
+84;Suspect;0;0;0
+85;Suspect;0;0;0
+86;Suspect;0;0;0
+87;Suspect;0;0;0
+88;Suspect;0;0;0
+89;Suspect;0;0;0
+90;Suspect;1;1;1
+91;Suspect;1;0;1
+92;Suspect;0;0;0
+93;Suspect;0;0;0
+94;Suspect;0;0;1
+95;Suspect;1;1;1
+96;Suspect;0;1;1
+97;Suspect;1;1;1
+98;Contact of a case;1;1;1
+99;Suspect;0;0;0
+100;Suspect;1;1;1
+101;Suspect;0;0;0
+102;Suspect;0;0;0
+103;Suspect;1;1;1
+104;Suspect;0;0;0
+105;Suspect;0;0;0
+106;Suspect;0;0;0
+107;Suspect;0;0;1
+108;Suspect;0;0;0
+109;Suspect;0;0;0
+110;Suspect;0;0;0
+111;Suspect;0;0;1
+112;Suspect;0;0;0
+113;Suspect;0;0;0
+114;Suspect;0;0;0
+115;Suspect;0;1;0
+116;Suspect;0;0;1
+117;Suspect;0;0;0
+118;Suspect;0;0;0
+119;Suspect;1;1;1
+120;Suspect;0;0;0
+121;Suspect;0;0;0
+122;Suspect;0;0;0
+123;Suspect;0;0;0
+124;Suspect;0;0;0
+125;Suspect;0;0;0
+126;Suspect;0;0;0
+127;Suspect;0;1;0
+128;Suspect;1;1;0
+129;Suspect;0;0;0
+130;Suspect;1;1;1
+131;Suspect;0;0;0
+132;Contact of a case;0;0;0
+133;Suspect;0;0;0
+134;Contact of a case;0;0;0
+135;Suspect;0;0;0
+136;Contact of a case;1;1;1
+137;Contact of a case;0;0;0
+138;Contact of a case;0;0;0
+139;Contact of a case;0;0;0
+140;Contact of a case;0;0;0
+141;Contact of a case;0;0;0
+142;Contact of a case;0;0;0
+143;Contact of a case;0;0;1
+144;Contact of a case;0;0;0
+145;Contact of a case;0;0;0
+146;Suspect;0;0;0
+147;Suspect;1;1;1
+148;Suspect;0;0;0
+149;Contact of a case;0;0;0
+150;Contact of a case;1;1;1
+151;Suspect;0;0;0
+152;Suspect;0;0;0
+153;Suspect;0;0;0
+154;Suspect;0;0;0
+155;Suspect;0;0;1
+156;Suspect;0;0;0
+157;Suspect;0;0;0
+158;Suspect;0;0;0
+159;Contact of a case;1;1;1
+160;Contact of a case;0;0;0
+161;Suspect;0;0;0
+162;Community surveillance;0;0;0
+163;Suspect;0;0;0
+164;Contact of a case;0;0;0
+165;Suspect;0;0;1
+166;Contact of a case;0;0;0
+167;Suspect;1;1;1
+168;Contact of a case;1;1;1
+169;Contact of a case;0;0;0
+170;Suspect;1;1;1
+171;Contact of a case;1;1;0
+172;Contact of a case;0;0;1
+173;Suspect;1;1;0
+174;Contact of a case;1;1;1
+175;Suspect;0;0;0
+176;Suspect;1;0;0
+177;Suspect;0;0;1
+178;Suspect;0;0;0
+179;Suspect;1;1;1
+180;Suspect;0;0;0
+181;Suspect;0;0;0
+182;Suspect;0;0;0
+183;Contact of a case;0;0;0
+184;Suspect;0;1;0
+185;Suspect;0;0;0
+186;Suspect;0;0;0
+187;Suspect;1;1;1
+188;Suspect;0;0;0
+189;Community surveillance;0;0;0
+190;Community surveillance;0;0;0
+191;Community surveillance;0;0;0
+192;Community surveillance;0;0;1
+193;Community surveillance;0;0;0
+194;Suspect;0;0;0
+195;Community surveillance;0;0;0
+196;Community surveillance;0;0;0
+197;Community surveillance;0;0;0
+198;Community surveillance;0;0;0
+199;Community surveillance;0;0;0
+200;Community surveillance;0;0;0
+201;Community surveillance;0;0;0
+202;Community surveillance;0;0;0
+203;Community surveillance;0;0;0
+204;Community surveillance;0;0;0
+205;Community surveillance;0;0;0
+206;Community surveillance;0;0;0
+207;Community surveillance;0;0;0
+208;Community surveillance;0;0;0
+209;Community surveillance;0;0;0
+210;Community surveillance;0;0;0
+211;Community surveillance;0;0;0
+212;Community surveillance;0;0;0
+213;Community surveillance;0;0;1
+214;Community surveillance;0;0;0
+215;Community surveillance;0;0;0
+216;Community surveillance;0;0;0
+217;Community surveillance;0;0;0
+218;Community surveillance;0;0;0
+219;Community surveillance;0;0;0
+220;Community surveillance;0;0;0
+221;Community surveillance;0;0;0
+222;Community surveillance;0;0;0
+223;Community surveillance;0;0;0
+224;Community surveillance;0;0;0
+225;Community surveillance;0;0;0
+226;Community surveillance;0;0;0
+227;Community surveillance;0;0;0
+228;Community surveillance;0;0;0
+229;Community surveillance;0;0;0
+230;Community surveillance;0;0;0
+231;Community surveillance;0;0;0
+232;Community surveillance;0;0;0
+233;Community surveillance;0;0;0
+234;Community surveillance;0;0;0
+235;Community surveillance;0;0;0
+236;Community surveillance;0;0;0
+237;Community surveillance;0;0;0
+238;Community surveillance;0;0;0
+239;Community surveillance;0;0;0
+240;Community surveillance;0;0;0
+241;Community surveillance;0;0;0
+242;Community surveillance;0;0;0
+243;Community surveillance;0;0;0
+244;Community surveillance;0;0;0
+245;Community surveillance;0;0;0
+246;Community surveillance;0;0;0
+247;Community surveillance;0;1;1
+248;Community surveillance;0;0;0
+249;Community surveillance;0;0;0
+250;Community surveillance;0;0;1
+251;Community surveillance;0;0;0
+252;Community surveillance;0;0;0
+253;Community surveillance;0;0;0
+254;Community surveillance;0;1;0
+255;Community surveillance;0;0;0
+256;Community surveillance;0;0;0
+257;Community surveillance;0;0;0
+258;Community surveillance;0;0;0
+259;Community surveillance;0;0;0
+260;Community surveillance;0;0;1
+261;Community surveillance;0;0;0
+262;Community surveillance;0;0;0
+263;Community surveillance;1;1;1
+264;Community surveillance;0;0;0
+265;Contact of a case;1;0;0
+266;Suspect;0;0;0
+267;Suspect;0;0;1
+268;Contact of a case;0;0;1
+269;Suspect;0;0;1
+270;Suspect;0;1;0
+271;Contact of a case;1;1;0
+272;Suspect;0;1;0
+273;Suspect;0;1;0
+274;Contact of a case;1;1;0
+275;Contact of a case;0;1;0
+276;Suspect;0;0;0
+277;Contact of a case;0;0;0
+278;Suspect;0;0;0
+279;Suspect;1;1;1

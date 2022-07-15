@@ -1,0 +1,98 @@
+---
+title: "BLCMs with Covariates"
+author:
+- Sonja Hartnack
+- Valerie Hungerbühler
+- Eleftherios Meletis
+date: "`r Sys.Date()`"
+output:
+  beamer_presentation: default
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Example from Veterinary Epidemiologic research, 2nd ed., Dohoo, p. 111-113    
+- Test are considered conditionally independent if the probability of getting a given test results on one test does not depend on the result from the other test, given the disease status of the individual.
+- If tests are conditionally independent, the formulae for $Se$ and $Sp$ under parallel $(Se_p, Sp_p)$ and series $(Se_s,Sp_s)$ interpretation are:
+- $Se_p = Se_1 + Se_2 - (Se_1*Se_2)$
+- $Sp_p = Sp_1*Sp_2$
+- $Se_s = Se_1*Se_2$
+- $Sp_s = Sp_1 + Sp_2 - (Sp_1*Sp_2)$
+ 
+---
+  
+## Example from Veterinary Epidemiologic research, 2nd ed., Dohoo, p. 111-113
+![](C:\Users\shartn\Documents\Cost.Harmony\Cost WS 2022\session 3\ex5.8.pdf) 
+
+---
+
+## Example from Veterinary Epidemiologic research, 2nd ed., Dohoo, p. 111-113
+![](C:\Users\shartn\Documents\Cost.Harmony\Cost WS 2022\session 3\ex5.8r.pdf) 
+
+---
+
+## Estimating covariances between test results
+- Using the $Se$ and $Sp$ estimates from the ISA example, the covariances in the $D+$ and the $D-$ groups are:
+    - $covar(+) = Se_s (obs) - (Se_1*Se_2) = 0.761 - 0.726 = 0.035$
+    - $covar(-) = Sp_p (obs) - (Sp_1*Sp_2) = 0.930 - 0.931 = -0.001$
+
+---
+
+## Conditional dependencies
+- Conditional independence implies that given an animal is diseased (or not) the probability $P$ of positive (or negative) outcomes for T\textsubscript{1}, the test results of the first test, is the same -  regardless of the known outcome for the second test, T\textsubscript{2}.
+
+---
+
+## Example of a COVID-19 data set
+
+![](C:\Users\shartn\Documents\Cost.Harmony\Cost WS 2022\session 3\jmv.pdf)
+
+---
+
+## Example of a COVID-19 data set
+1. how to prepare the data set in the correct format
+     * create_data_cassaniti.R
+2. how to describe the model
+     * model_final.bug
+3. how to run the model in JAGS with runjags
+     * runjags.version.R
+4. how to check convergence and how to analyse the data
+
+
+## How to prepare the data set
+data from Cassaniti et al. 2020 
+DOI: 10.1002/jmv.25800
+
+https://github.com/shartn/BLCM-COVID19
+
+---
+
+## Exercises
+- Ex. 1
+    - Can you re-run the exercises?
+    - Assess what happens if you add other covariances?
+    - How many could you add and still have "meaningful results"?
+    - Try different priors
+    - Looking at the runjags reference manual, could ou customize the plots (just showing trace plots and histograms)?
+- Ex. 2 (Bonus)
+    - Could you expand the model with a fourth test with simulated data?
+    
+    
+# Exercise 3 Covariates
+- Explore the data set 'echinococcus.csv'
+    PCR for either E. multilocularis or E. granulosus, ELISA for both, eggs found by arecoline purgation, Tawnia co-infection, age and sex 
+- Run classical 'risk factor analysis': is sex, Taenia co-infection or age a risk factor for echinococcus (PCR-prevalence, seroprevalence or purges)? Obtain p-values and ORs with confidence intervals.  
+
+# Exercise 4 Covariates
+- Prepare the data set in the correct format (dump, add ones) for BLCM
+-  name it : m.short <- as.matrix(dat)
+- Run a model for three tests (assume a very high sensitivity for arecoline purgation)
+- Try different priors
+- Evidence of conditional dependencies
+- Is there evidence for a covariate effect on the prevalence?
+-compare your finding with Ex.3    
